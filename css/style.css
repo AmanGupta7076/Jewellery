@@ -190,8 +190,8 @@ button{
 
 .left .box{
     background-color: #000;
-    height: 300px;
-    width: 250px;
+    height: 60%;
+    width: 40%;
     position: absolute;
     top: -30px;
     left: 90px;
@@ -579,6 +579,8 @@ input{
     }
     .left .box{
         left: 0px;
+        height: 40%;
+        width: 45%;
     }
     .right{
         margin-top: 0px;
@@ -672,7 +674,7 @@ input{
     }
     
     input{
-        width: 86%;
+        width: 80%;
     }
     .lower, .lower-1{
         grid-template-columns: 100%;
@@ -682,8 +684,11 @@ input{
         /* margin: 0 auto; */
         width: 100%;
     }
-    .creation-12 img, .creation-1 img{
-        margin-left: 0px;
+     .creation-1 img{
+        margin-left: 20px;
+    }
+    .creation-12 img{
+        margin-left: 30px;
     }
     .ajanta{
         padding-left: 0px;
@@ -698,14 +703,6 @@ input{
     }
 }
 
-@media only screen and (max-width:425px){
-   
-    /* seventh */
-
-    input{
-        width: 85%;
-    }
-}
 
 @media only screen and (max-width:320px){
    
