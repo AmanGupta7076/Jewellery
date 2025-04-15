@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", sans-serif;
+    user-select: none;
 }
 
 .inner{
@@ -18,7 +19,7 @@ html{
 
 /* first */
 
-.main{
+.main, .about, .blog, .shop{
     height:100vh;
     width:100%;
     background-image: url(../images/background.jpeg);
@@ -27,7 +28,18 @@ html{
     background-position: center;
     
 }
-
+.about{
+    height: 90vh;
+    background-image: url(../images/aboutt.jpg);
+}
+.blog{
+    height: 90vh;
+    background-image: url(../images/hi.avif);
+}
+.shop{
+    height: 90vh;
+    background-image: url(../images/hlo.webp);
+}
 nav{
     /* background-color:red; */
     display:grid;
@@ -352,7 +364,21 @@ button{
     border-radius: 100px;
     border: 5px solid grey;
 }
-
+.sixth button
+{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    margin:60px  2px;
+    border: none;
+    border-radius: 5px;
+}
+.sixth button:hover
+{
+    background-color: black;
+    transition: .5s;
+}
 
 /* seventh section */
 
@@ -402,8 +428,9 @@ ul li{
     list-style: none;
     margin-top: 10px;
 }
-.qwerty{
-    /* background-color: pink; */
+.qwerty ul a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .tweet{
@@ -485,17 +512,15 @@ input{
     transition-duration: 1s;
 }
 
-.qwerty ul li:hover{
+.qwerty ul li a:hover{
     /* background-color: #000; */
     color: orange;
-    /* border: 1px solid orange; */
     transition-duration: 1s;
 }
 
 .lower-1 .fa:hover{
     /* background-color: #000; */
     color: orange;
-    /* border: 1px solid orange; */
     transition-duration: 1s;
 }
 
@@ -704,7 +729,8 @@ input{
 }
 
 
-@media only screen and (max-width:320px){
+@media only screen and (max-width:320px) and (min-width:300px)
+{
    
     .left img{
         margin-left: 20px;
