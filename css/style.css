@@ -657,7 +657,7 @@ input{
     /* third */
 
     .third{
-        margin: 170px 30px;
+        margin: 100px 30px;
         grid-template-columns: 100%;
     }
 
@@ -665,6 +665,7 @@ input{
 
     .fourth{
         grid-template-columns: 100%;
+        margin-bottom: 70px;
     }
     .left-1{
         /* background-size: contain; */
@@ -697,7 +698,9 @@ input{
     .seventh .inner{
         grid-template-columns: 100%;
     }
-    
+    .seventh{
+        margin-top: 0px;
+    }
     input{
         width: 80%;
     }
