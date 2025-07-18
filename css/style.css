@@ -615,6 +615,9 @@ input{
 {
     /* first */
 
+    .main{
+        height: 750px !important;
+    }
     .content{
         width: 480px;
     }
@@ -633,8 +636,8 @@ input{
     }
     .left .box{
         left: 0px;
-        height: 65%;
-        width: 45%;
+        height: 40% !important;
+        width: 56% !important;
     }
     .right{
         margin-top: 0px;
@@ -644,8 +647,8 @@ input{
 
     .right-3 .upper-1 .fa{
         padding: 9px;
-        height: 50px;
-        width: 19%;
+        height: 40px;
+        width: 24%;
         /* text-align: center; */
     }
     .upper span{
@@ -654,9 +657,22 @@ input{
     .lower-1{
         margin-top: 40px;
     }
+    .lower-1 span{
+        font-size: 0.7rem !important;
+    }
 
     .right-3{
         padding-left: 0px;
+    }
+    .creation-1 img, .creation-12 img {
+    margin-left: 10px;
+    padding-top: 25px;
+    }
+    .creation-2{
+        padding-bottom: 25px !important;
+    }
+    .creation-1{
+        margin-bottom: 45px !important;
     }
 }
 
